@@ -26,6 +26,22 @@ it can be summarized as follows:
  - Preprocessing
  - Transformation
  
-(to be continued) 
+### Step 2: Exploratory data analysis
+
+Before working with data, it is a key aspect of any process related to data to understand it, and 
+a key point to this is EDA. In words of [Chlow Mawer](https://www.svds.com/value-exploratory-data-analysis/?utm_campaign=KDNuggets%20Blog&utm_source=KDNuggets) : 
+ - At a high level, EDA is the practice of using visual and quantitative methods to understand 
+   and summarize a dataset without making any assumptions about its contents. It is a crucial 
+   step to take before diving into machine learning or statistical modeling because it provides 
+   the context needed to develop an appropriate model for the problem at hand and to correctly 
+   interpret its results.
  
+So, before applying any algorithm to our data we should have a look at our data to have more 
+insight about it. Here are some steps accoring to Chlow Mawer to get this insight
+ - Univariate visualization of and summary statistics for each field in the raw dataset
+ - Bivariate visualization and summary statistics for assessing the relationship between each variable in the dataset and the target variable of interest (e.g. time until churn, spend)
+ - Multivariate visualizations to understand interactions between different fields in the data
+ - Dimensionality reduction to understand the fields in the data that account for the most variance between observations and allow for the processing of a reduced volume of data
+ - Clustering of similar observations in the dataset into differentiated groupings, which by collapsing the data into a few small data points, patterns of behavior can be more easily identified 
  
+(To be continued) 
