@@ -1,6 +1,6 @@
 ### DATA PREPROCESSING
 
-With this first commit I would like to begin a series of articles regarding data preprocessing because 
+With this first commit I would like to begin a series of points regarding data preprocessing because 
 I see it as a fundamental step for later dealing or apply with any algorithm to extract any conclusion from them. I hope you find this articles useful.
 
 But firstly I would like to name a few buzz words regarding what I would like to write about: Data preparation, cleaning, pre-processing, cleansing, wrangling... These words refer to the same topic, which is a set of steps or activities to pre- model data.
@@ -37,11 +37,24 @@ a key point to this is EDA. In words of [Chlow Mawer](https://www.svds.com/value
    interpret its results.
  
 So, before applying any algorithm to our data we should have a look at our data to have more 
-insight about it. Here are some steps accoring to Chlow Mawer to get this insight
+insight about it. Here are some steps according to Chlow Mawer to get this insight
  - Univariate visualization of and summary statistics for each field in the raw dataset
  - Bivariate visualization and summary statistics for assessing the relationship between each variable in the dataset and the target variable of interest (e.g. time until churn, spend)
  - Multivariate visualizations to understand interactions between different fields in the data
  - Dimensionality reduction to understand the fields in the data that account for the most variance between observations and allow for the processing of a reduced volume of data
  - Clustering of similar observations in the dataset into differentiated groupings, which by collapsing the data into a few small data points, patterns of behavior can be more easily identified 
  
-(To be continued) 
+The article author stresses the importance of visualization instead of only using summarization alone.
+
+# Step3: Dealing with missing values
+
+In this topic I can recommend you the next:
+    - dropping instances
+    - dropping attributes
+    - imputing the attribute mean for all missing values
+    - imputing the attribute median for all missing values
+    - imputing the attribute mode for all missing values
+    - using regression to impute attribute missing values
+    
+MAybe you can follow other ways to deal with the commented missing values but the listed ones are tried, tested and most 
+importantly, are the commonly used approach.      
