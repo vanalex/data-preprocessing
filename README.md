@@ -49,6 +49,7 @@ The article author stresses the importance of visualization instead of only usin
 # Step3: Dealing with missing values
 
 In this topic I can recommend you the next:
+
     - dropping instances
     - dropping attributes
     - imputing the attribute mean for all missing values
