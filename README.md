@@ -58,4 +58,22 @@ In this topic I can recommend you the next:
     - using regression to impute attribute missing values
     
 MAybe you can follow other ways to deal with the commented missing values but the listed ones are tried, tested and most 
-importantly, are the commonly used approach.      
+importantly, are the commonly used approach.
+
+# Step 4: Dealing with outliers
+
+There is no strategy to remove or to maintain them at all. Even if you hear someone telling you that you should follow a fixed
+strategy always, this is not true. Outliers are situation dependant.
+
+Depending on the concrete situation, outliers can be the result of poor data collection or they can be really good anomalous 
+data. So the approaching to outliers is not focused to a particularly strategy. From this article [Analysis factor](http://www.theanalysisfactor.com/outliers-to-drop-or-not-to-drop/)  
+
+    
+    One option is to try a transformation. Square root and log transformations both pull in high numbers. 
+    This can make assumptions work better if the outlier is a dependent variable and can reduce the impact 
+    of a single point if the outlier is an independent variable. 
+    
+Here also you can follow some discussion regarding outliers:
+    - [§ mehotds to deal with outliers](https://www.neuraldesigner.com/blog/3_methods_to_deal_with_outliers)
+    - [Removing Outliers Using Standard Deviation in Python](https://www.kdnuggets.com/2017/02/removing-outliers-standard-deviation-python.html)     
+    - [Remove Outliers in Pandas DataFrame using Percentiles](https://stackoverflow.com/questions/35827863/remove-outliers-in-pandas-dataframe-using-percentiles)
