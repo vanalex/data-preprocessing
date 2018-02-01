@@ -77,3 +77,22 @@ Here also you can follow some discussion regarding outliers:
     - [§ mehotds to deal with outliers](https://www.neuraldesigner.com/blog/3_methods_to_deal_with_outliers)
     - [Removing Outliers Using Standard Deviation in Python](https://www.kdnuggets.com/2017/02/removing-outliers-standard-deviation-python.html)     
     - [Remove Outliers in Pandas DataFrame using Percentiles](https://stackoverflow.com/questions/35827863/remove-outliers-in-pandas-dataframe-using-percentiles)
+    
+# Step 5: Dealing with Imbalanced Data
+This is a problem that is more common that you think. Maybe you have a robust dataset, with no missing values, with outliers but
+maybe if you a have a deeper look, you notice that 90% percent of the instances belong to one class and the others to another. 
+Or even worse, 95% to 5%, or could even worse.
+
+To deal with this there some strategies:
+
+- [Learning from Imbalanced Classes](https://www.svds.com/learning-imbalanced-classes/?utm_source=kdnuggets&utm_medium=blog&utm_campaign=learning%20from%20imbalanced%20classes)
+- [7 Techniques to Handle Imbalanced Data](https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html)
+
+There is a good explanation of why we can have at the end imbalanced data. As stated in the last link:
+
+    Data used in these areas often have less than 1% of rare, but “interesting” events (e.g. fraudsters using credit cards, 
+    user clicking advertisement or corrupted server scanning its network). However, most machine learning algorithms do not 
+    work very well with imbalanced datasets. The following seven techniques can help you, to train a classifier to detect 
+    the abnormal class.
+    
+    
