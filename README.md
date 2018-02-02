@@ -95,4 +95,27 @@ There is a good explanation of why we can have at the end imbalanced data. As st
     work very well with imbalanced datasets. The following seven techniques can help you, to train a classifier to detect 
     the abnormal class.
     
+# Step 6: Transformations
+
+According to Wikipedia
+
+    In statistics, data transformation is the application of a deterministic mathematical function to each point in a data 
+    set — that is, each data point zi is replaced with the transformed value yi = f(zi), where f is a function. Transforms are 
+    usually applied so that the data appear to more closely meet the assumptions of a statistical inference procedure that is to 
+    be applied, or to improve the interpretability or appearance of graphs.
     
+This is one of the most important tasks of data preparation and it requires more sophisticated methods than others viewed 
+previously.
+
+Many ways of doing transformations exist but instead of giving a list of steps, it is better to have a few examples to better 
+grasp the concept
+
+    - One-hot encoding "transforms categorical features to a format that works better with classification and regression 
+    algorithms" (taken from the first link below). See a discussion of the one-hot transformation below, as well as an 
+    approach using Pandas
+        - [One hot encoding discussion](https://www.quora.com/What-is-one-hot-encoding-and-when-is-it-used-in-data-science/answer/H%C3%A5kon-Hapnes-Strand)
+        - [One hot encoding in python](https://stackoverflow.com/questions/37292872/how-can-i-one-hot-encode-in-python)  
+     
+    - Log distribution transformation if the non-linear model can be turned into a linear model.
+        - [log transformation](https://stats.stackexchange.com/questions/18844/when-and-why-should-you-take-the-log-of-a-distribution-of-numbers)
+        
