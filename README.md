@@ -119,7 +119,7 @@ grasp the concept
     - Log distribution transformation if the non-linear model can be turned into a linear model.
         - [log transformation](https://stats.stackexchange.com/questions/18844/when-and-why-should-you-take-the-log-of-a-distribution-of-numbers)
         
-#Step 7: Finishing touches and Moving ahead
+# Step 7: Finishing touches and Moving ahead
 
 Here normally you have some options to proceed with the data that has beed cleaned
 
