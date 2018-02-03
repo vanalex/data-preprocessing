@@ -119,3 +119,15 @@ grasp the concept
     - Log distribution transformation if the non-linear model can be turned into a linear model.
         - [log transformation](https://stats.stackexchange.com/questions/18844/when-and-why-should-you-take-the-log-of-a-distribution-of-numbers)
         
+#Step 7: Finishing touches and Moving ahead
+
+Here normally you have some options to proceed with the data that has beed cleaned
+
+    - If you want to use the cleaned data to feed a machine learning algorithm in order to build model, then you probably need
+      to use a proper strcuture to use any machine learning algorithm. Normally from a dataframe to numpy ndarray or matrix.
+    
+    - You will need then a proper knowledge of what algorithm to use.
+    
+    - Or maybe [you want to save the data into any database](https://stackoverflow.com/questions/39939716/writing-a-pandas-dataframe-to-mysql)
+    
+    - [Or maybe you want to continue with the data preparation](https://github.com/vanalex/tidy-data-python)         
